@@ -1,0 +1,8 @@
+FRC Command Based Robot Template
+--------------------------------
+
+This program is the basis for a command based robot program. You should look at all the files in this template and make edits where indicated in the source code.
+
+*No default command can be problamatic.
+
+*The stack talon's talon in init and not in execute.
