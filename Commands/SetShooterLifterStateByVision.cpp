@@ -4,7 +4,7 @@
 #define MIN_DISTANCE_TO_BE_CONSIDERED_CLOSE 6
 
 SetShooterLifterStateByVision::SetShooterLifterStateByVision() :
-	SetShooterLifterState(IS_GITLITZ_KAFOT, "SetShooterLifterStateByVision") {
+	SetShooterLifterState(true, "SetShooterLifterStateByVision") {
 }
 
 // Called just before this Command runs the first time

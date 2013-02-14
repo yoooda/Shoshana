@@ -31,6 +31,6 @@
 #define COMPRESSOR_PRESSURE_SWITCH 1
 #define COMPRESSOR_RELAY 2
 
-#define IsDoronKingggggggggggg true
+
 
 #endif

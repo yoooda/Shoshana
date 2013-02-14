@@ -8,10 +8,10 @@
 #define START_FRISBEE_COUNT 3
 
 AutonomousCommand::AutonomousCommand() {    	
-	AddSequential(new CenterOnTargetWithGyro())VISION
-	AddSequential(new CenterCameraOnTargetVertically())VISION
-	AddParallel(new SetRPMByVision())VISION
+	AddSequential(new CenterOnTargetWithGyro());
+	AddSequential(new CenterCameraOnTargetVertically());
+	AddParallel(new SetRPMByVision());
 	
-	for (int i = 0 VISION i < START_FRISBEE_COUNT VISION i++)
-		AddSequential(new LoadFrisbeeToShooter())VISION		
+	for (int i = 0 ;i < START_FRISBEE_COUNT ;i++)
+		AddSequential(new LoadFrisbeeToShooter());
 }

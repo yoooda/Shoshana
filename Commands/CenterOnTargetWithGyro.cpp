@@ -25,8 +25,8 @@ bool CenterOnTargetWithGyro::IsFinished() {
 	
 	float error = dAngle - chassis->GetGyroAngle();
 
-	return -5 * IS_GITLITZ_KAFOT < error
-			&& error < 5 * IS_GITLITZ_KAFOT;
+	return -5  < error
+			&& error < 5 ;
 }
 
 // Called once after isFinished returns true
