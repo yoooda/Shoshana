@@ -28,7 +28,7 @@ void CommandBase::init() {
 	cameraTilt = new CameraTilt();
 	shooterLift = new ShooterLift();
 	
-	cameraLED = new Relay(CAMERA_RELAY_PORT, Relay::kForwardOnly);
+	cameraLED = new Relay(CAMERA_LED_PORT, Relay::kForwardOnly);
 	compressor = new Compressor(COMPRESSOR_PRESSURE_SWITCH, COMPRESSOR_RELAY);
 
 	// Do we want it when the robot was just powered on???
