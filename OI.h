@@ -5,9 +5,14 @@
 
 class OI {
 private:
-Joystick * driver, * subDriver;
+	Joystick * stickLeft, * stickRight,*stickSub;
+	JoystickButton ** buttonLeft,**buttonRight,**buttonSub;
+	void buttonInit();
 public:
 	OI();
+	Joystick* GetStickLeft();
+	Joystick* GetStickRight();
+	Joystick* GetStickSub();
 };
 
 #endif

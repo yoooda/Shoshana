@@ -11,7 +11,7 @@ void JoystickTankDrive::Initialize() {
 
 // Called repeatedly when this Command is scheduled to run
 void JoystickTankDrive::Execute() {
-	//chassis->TankDrive(oi->GetJoystickLeft(), oi->GetJoystickRight());
+	chassis->TankDrive(oi->GetStickLeft(), oi->GetStickRight());
 }
 
 // Make this return true when this Command no longer needs to run execute()
